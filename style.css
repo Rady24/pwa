@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.page__content{
+    padding: 10px;
+}
+.container{
+    max-width:375px;
+    margin: 0 auto;
+}
+.introduce-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.introduce__text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.introduce__text-descr{
+    font-size: 15px;
+}
+.introduce__text-title{
+    font-weight: 800;
+    font-size: 20px;
+}
+.introduce__text-owner{
+    color: rgb(38, 6, 182);
+}
+.row{
+    margin-top: 10px;
+}
+.row-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 500;
+    align-items: center;
+}
+.item-1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.row__icon-1{
+    width: 13px;
+    padding-top: 3px;
+}
+.row__icon-2{
+    width: 13px;
+}
+.row__item{
+    border-right: 1px solid black;
+    padding-right: 7px;
+    align-items: center;
+    justify-content: center;
+}
+.row__item:last-child{
+    border: none;
+}
+.changes{
+    margin-top: 20px;
+}
+.changes__log{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.changes__log-title{
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 3px solid rgb(0, 21, 141);
+    margin-bottom: 10px;
+}
+.changes__log-table{
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.more{
+    margin-top: 10px;
+}
+.more-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.more__title{
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 3px solid rgb(0, 21, 141);
+    margin-bottom: 10px;
+}
+.more__descr{
+    margin-top: 10px;
+}
+.more__img{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.more__img-1{
+    width: 300px;
+}
+.rate__title{
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: 3px solid rgb(0, 21, 141); 
+}
+.rate__img{
+    display: flex;
+    justify-content: center;
+}
+.star{
+    width: 20px;
+}
+.rate__img-stars{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.download__button{
+    background-color: rgb(250, 0, 0);
+    width: 100vw;
+}
+
